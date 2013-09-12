@@ -1,0 +1,209 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".RegistActivity" >
+
+    <TextView
+        android:id="@+id/resgit_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/regist" />
+
+    <TextView
+        android:id="@+id/regist_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/resgit_frame"
+        android:layout_below="@+id/resgit_frame"
+        android:layout_marginTop="21dp"
+        android:text="@string/regist_username" />
+
+    <EditText
+        android:id="@+id/regist_username_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/regist_username"
+        android:layout_alignBottom="@+id/regist_username"
+        android:layout_toRightOf="@+id/regist_username"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/regist_password2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regist_password1_text"
+        android:layout_marginTop="14dp"
+        android:layout_toLeftOf="@+id/regist_password1_text"
+        android:text="@string/regist_password2" />
+
+    <EditText
+        android:id="@+id/regist_password2_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/regist_password1_text"
+        android:layout_alignRight="@+id/regist_password1_text"
+        android:layout_below="@+id/regist_password1_text"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/regist_password1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regist_username_text"
+        android:layout_marginTop="16dp"
+        android:layout_toLeftOf="@+id/regist_password1_text"
+        android:text="@string/regist_password1" />
+
+    <EditText
+        android:id="@+id/regist_password1_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/regist_username_text"
+        android:layout_alignRight="@+id/regist_username_text"
+        android:layout_below="@+id/regist_username_text"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/regist_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/regist_password2"
+        android:layout_below="@+id/regist_password2_text"
+        android:layout_marginTop="16dp"
+        android:text="@string/regist_age" />
+
+    <EditText
+        android:id="@+id/regist_age_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/regist_age"
+        android:layout_alignBottom="@+id/regist_age"
+        android:layout_alignLeft="@+id/regist_password2_text"
+        android:layout_alignRight="@+id/regist_password2_text"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/regist_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/regist_age"
+        android:layout_below="@+id/regist_age_text"
+        android:layout_marginTop="20dp"
+        android:text="@string/regist_sex" />
+
+<RadioGroup
+    android:id="@+id/radioGroup2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@+id/regist_sex"
+    android:layout_centerHorizontal="true"
+    android:orientation="horizontal" >
+
+    <RadioButton
+        android:id="@+id/radio0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/regist_sex_male" />
+
+    <RadioButton
+        android:id="@+id/radio1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/regist_sex_female" />
+</RadioGroup>
+
+<TextView
+    android:id="@+id/regist_phone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/radioGroup2"
+    android:layout_marginTop="16dp"
+    android:layout_toLeftOf="@+id/regist_age_text"
+    android:text="@string/regist_phone" />
+
+<EditText
+    android:id="@+id/regist_phone_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/regist_phone"
+    android:layout_alignBottom="@+id/regist_phone"
+    android:layout_alignLeft="@+id/regist_age_text"
+    android:layout_alignRight="@+id/regist_age_text"
+    android:ems="10"
+    android:inputType="phone" />
+
+
+
+<TextView
+    android:id="@+id/text_copyright2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:text="@string/text_copyright" 
+    android:textSize="7dp"
+    android:gravity="center_vertical|center_horizontal"/>
+
+<Button
+    android:id="@+id/back_login_button"
+    android:layout_width="wrap_content"
+    android:layout_height="30dp"
+    android:layout_alignRight="@+id/resgit_frame"
+    android:layout_alignTop="@+id/resgit_frame"
+    android:text="@string/back_login_button" 
+    android:textSize="8dp"/>
+
+<EditText
+    android:id="@+id/regist_agreement_text"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:layout_alignLeft="@+id/regist_phone_text"
+    android:layout_below="@+id/regist_phone_text"
+    android:layout_marginTop="10dp"
+    android:text="@string/regist_agreement_text"
+    android:editable="false"
+    android:textSize="8dp" />
+
+<CheckBox
+    android:id="@+id/accept_checkBox"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/regist_agreement_text"
+    android:layout_centerHorizontal="true"
+    android:text="@string/accept_checkBox"
+    android:checked="false"
+    android:textSize="8dp" />
+
+<Button
+    android:id="@+id/regist_submit_button"
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/accept_checkBox"
+    android:layout_toRightOf="@+id/regist_sex"
+    android:enabled="false"
+    android:text="@string/regist_submit_button" />
+
+<Button
+    android:id="@+id/regist_reset_button"
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignRight="@+id/accept_checkBox"
+    android:layout_alignTop="@+id/regist_submit_button"
+    android:text="@string/regist_reset_button" />
+
+</RelativeLayout>

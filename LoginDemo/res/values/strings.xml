@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LoginDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="Login">用户登录</string>
+    <string name="login_regist">注册</string>
+    <string name="username">用户：</string>
+    <string name="password">密码：</string>
+    <string name="submit">登录</string>
+    <string name="reset">重置</string>
+    <string name="title_activity_main_frmae">MainFrameActivity</string>
+    <string name="main_frame">应用界面</string>
+    <string name="title_activity_main_frame">MainFrameActivity</string>
+    <string name="user_main_frame">主界面</string>
+    <string name="user_app_frame">应用界面</string>
+    <string name="user_product_info">产品信息</string>
+    <string name="user_sys_setting">系统设置</string>
+    <string name="user_tech_support">技术支持</string>
+    <string name="title_activity_regist">RegistActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="regist">用户注册</string>
+    <string name="back_login_button">已有帐号，请登录</string>
+    <string name="regist_username">用户名：</string>
+    <string name="regist_password1">输入密码</string>
+    <string name="regist_password2">确认密码</string>
+    <string name="regist_age">年       龄</string>
+    <string name="regist_sex">性       别</string>
+    <string name="regist_sex_male">男</string>
+    <string name="regist_sex_female">女</string>
+    <string name="regist_phone">联系电话</string>
+    <string name="regist_address">联系地址</string>
+    <string name="regist_submit_button">注册</string>
+	<string name="regist_reset_button">重填</string>
+	<string name="text_copyright">版权所有 © 2013   南京博创海云电子科技有限公司 版权所有      宁ICP备 01083856 号</string>
+	<string name="regist_agreement_text">
+	    为有效利用QQ号码资源，维护用户合法权益，特制订《QQ号码规则》（以下简称“本规则”）。请您务必审慎阅读、充分理解各条款内容，特别是免除或者限制责任的条款，以及开通或使用某项服务的单独协议，并选择接受或不接受。限制、免责条款可能以加粗形式提示您注意。
+除非您已阅读并接受本规则所有条款，否则您无权申请或使用QQ号码。您申请或使用QQ号码的行为即视为您已阅读并同意受本规则的约束。 
+	</string>
+	<string name="accept_checkBox">我已阅读注册协议，并遵守相关规定</string>
+</resources>
